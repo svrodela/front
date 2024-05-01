@@ -14,13 +14,13 @@ app.use('/',indexRoutes);
 
 
 const request = require('request');
-/*
+
 request('https://colmena.onrender.com/grafica', function (error, response, body) {
   console.error('error:', error); 
   console.log('statusCode:', response && response.statusCode); 
   console.log('body:', body); 
 });
-
+/*
 router.get('/ver', async (req, res) => {
   //const valores = await Valor.find();
   console.log("hola");
